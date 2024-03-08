@@ -1,0 +1,16 @@
+/* 头尾各页面相同样式 */
+/* 版心 */
+.wrapper{
+    margin: 0 auto;
+    width: 85vw;
+}
+a{
+    text-decoration: none;
+    color: #444;
+}
+li{
+    list-style-type: none;
+}
+/* p{
+    white-space: pre;
+} */

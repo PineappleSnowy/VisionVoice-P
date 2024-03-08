@@ -1,0 +1,381 @@
+/* 首页内容样式 */
+/* 背景图片 */
+body{
+    -webkit-font-smoothing: antialiased;
+    background-color:blanchedalmond;
+    font: Microsoft YaHei,Heiti SC,tahoma,arial,Hiragino Sans GB,"\5B8B\4F53",sans-serif;
+    color: #444;
+}
+body::before {
+    content: "";
+    position: absolute;
+
+    background-image: url(../images/index1.webp);
+    background-repeat: no-repeat; 
+    background-size: cover;
+
+    background-position: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.9;
+    z-index: -1;
+}
+body::after {
+    content: "";
+    position: absolute;
+    position: fixed;
+
+    background-image: url(../images/index2.webp);
+    background-repeat: no-repeat; 
+    background-size: cover;
+
+    background-position: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 1;
+    z-index: -2;
+}
+.total{
+    width: 100vw;
+    height: 100vh;
+}
+.total .wrapper{
+    position: relative;
+    width: 85vw;
+    height: 85vh;
+}
+
+
+/* 头部区域 */
+.total .wrapper .header{
+    /*高度，填充*/
+    text-align: center;
+    font-size: 28px;
+    /* 渐变效果 */
+    bottom: 0;
+    animation: slidefade linear 1.5s; 
+}
+.total .wrapper .header h1{
+    color:rgb(255, 255, 255);
+    font-size: 60px;
+    margin-top: 70px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0);
+}
+
+.total .wrapper .header h2{
+    color:rgb(213, 255, 255);
+    font-size: 35px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+.total .wrapper .header p{
+    color:rgba(170, 255, 255, 0.85);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+
+/* 二维码区域 */
+.total .wrapper .QR_area{
+    font-size: 25px;
+    position: absolute;
+
+    bottom: 0;
+    left: 0;
+}
+.total .wrapper .QR_area img{
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    border-radius: 10px;
+    opacity: 1;
+    animation: fadeimg 2.5s linear;
+}
+.total .wrapper .QR_area p{
+    width: 200px;
+    text-align: center;
+    color:#ebe5e5;
+    animation: fadetext 2.5s linear;
+}
+.total .wrapper .btn {
+    display: block;
+    
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    animation: fadeimg 3.5s linear;
+}
+.total .wrapper .btn a{
+    color: white;
+}
+.total .wrapper .btn:hover {
+    background-color: #45a049;
+}
+
+
+
+
+
+/* 动画效果 */
+@keyframes slidefade {
+    0% {
+        bottom: 200px;
+        opacity: 0;
+    }
+    100%{
+        bottom: 0;
+        opacity: 1;
+    }
+}
+@keyframes fadeimg {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes fadetext {
+    0% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+/* 下一页 */
+.nextpage{
+    height: 100vh;
+}
+/* 标题 */
+.nextpage .title {
+    font-size: 40;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+.nextpage .title h2{
+    color: #ddd;
+}
+/* 列表 */
+.content ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.content li{
+    width: 300px;
+    height: 250px;
+    background-color: #fff;
+    list-style-type: none;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.block{
+    height: 85px;
+}
+
+/* 图下小字区域 */
+.content .cover{
+    width: 270px;
+    height: 90px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding:0 15px;
+
+    display: flex;
+    align-items: center;
+
+    background-image: linear-gradient(180deg,rgba(137,137,137,0.00) 0%,rgba(0,0,0,90) 100%);
+}
+
+
+/* 文字 */
+.content .cover .text{
+    color: #fff;
+}
+.content .cover .text h4{
+    margin-bottom: 6px;
+    font-size: 20px;
+}
+
+
+/* 图片过渡效果 */
+li img{
+    transition: all 0.3s;
+}
+li:hover img{
+    transform: scale(1.25);
+}
+.content p{
+    font-size: 15px;
+    color: #bbb;
+    margin-bottom: 15px;
+}
+
+.manual{
+    width: 35px;
+    height: 35px;
+    background-image: url(../images/操作手册.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+.manual:hover{
+    opacity: 0.8;
+}
+
+.announce{
+    width: 35px;
+    height: 35px;
+    background-image: url(../images/喇叭.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.announce:hover{
+    opacity: 0.8;
+}
+
+.last-wrapper{
+    position: relative;
+    margin-bottom: 2px;
+}
+
+
+
+
+/* @midia media query */
+@media screen and (max-width: 600px) {
+    body::before {
+        content: "";
+        position: absolute;
+    
+        background-image: url(../images/index3.png);
+        background-repeat: no-repeat; 
+        background-size: cover;
+    
+        background-position: center;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0.9;
+        z-index: -1;
+    }
+    body::after {
+        content: "";
+        position: absolute;
+        position: fixed;
+    
+        background-image: url(../images/index4.png);
+        background-repeat: no-repeat; 
+        background-size: cover;
+    
+        background-position: center;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 1;
+        z-index: -2;
+    }
+
+
+
+    .total .wrapper .header h1 {
+        font-size: 40px;
+        margin-top: 40px;
+    }
+
+    .total .wrapper .header h2 {
+        font-size: 28px;
+    }
+
+    .total .wrapper .header p {
+        font-size: 22px;
+        opacity: 0.9;
+    }
+
+    .total .wrapper .QR_area img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .total .wrapper .QR_area p {
+        width: 150px;
+        font-size: 18px;
+    }
+
+    .total .wrapper .btn {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    .nextpage {
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .nextpage .title {
+        padding-bottom: 40px;
+    }
+
+    .content ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .content li {
+        margin-bottom: 20px;
+        flex-shrink: 0;
+    }
+
+    .block{
+        height: 0;
+    }
+
+
+}
+
+@media screen and (max-width: 1105.5px) {
+    .block{
+        height: 0;
+    }
+
+    .announce{
+        display: none;
+    }
+}
