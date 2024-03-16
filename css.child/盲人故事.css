@@ -37,7 +37,7 @@ body{
     display: flex;
 }
 .header .nav li{
-    margin-right:67px;
+    margin-right:65px;
     font-size: 19px;
 }
 .nav li a{
