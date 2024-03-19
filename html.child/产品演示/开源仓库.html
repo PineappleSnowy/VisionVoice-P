@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,11 +10,10 @@
     <link rel="stylesheet" href="../../css.child/盲人故事.css">
     <link rel="stylesheet" href="../../iconfont/arrow.css">
     <style>
-        body::after
-        {
+        body::after {
             content: "";
             background-image: url(../../images/产品演示.webp);
-            background-repeat: no-repeat; 
+            background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
 
@@ -24,34 +24,62 @@
             z-index: -1;
             position: fixed;
         }
-        .text{
+
+        .text {
             display: flex;
             justify-content: center;
-            align-items: center;
+            position: relative;
+            background-color: white;
+            opacity: 1;
+            overflow: hidden;
+        }
+
+        iframe {
+            position: absolute;
+            top: 29px;
+        }
+
+        .bbb {
+            position: absolute;
+            top: 45px;
         }
 
     </style>
     <script>
-        function toggleDropdown(navtog) 
-        {navtog.classList.toggle('active');}
+        function toggleDropdown(navtog) { navtog.classList.toggle('active'); }
     </script>
 </head>
+
 <body>
 
     <div class="dropdown-wrapper">
         <div class="navtog" onclick="toggleDropdown(this)"></div>
         <ul class="dropdown">
             <li class="image"></li>
-            <a href="../../index.html"><li>首页</li></a>
-            <a href=".././盲人故事.html"><li>盲人故事</li></a>
-            <a href=".././盲人需求.html"><li>盲人需求</li></a>
-            <a href=".././未来展望.html"><li>未来展望</li></a>
-            <a href=".././更新日志.html"><li>更新日志</li></a>
-            <a href=".././关于我们.html"><li>关于我们</li></a>
-            <a href=".././产品演示.html"><li>产品演示</li></a>
+            <a href="../../index.html">
+                <li>首页</li>
+            </a>
+            <a href=".././盲人故事.html">
+                <li>盲人故事</li>
+            </a>
+            <a href=".././盲人需求.html">
+                <li>盲人需求</li>
+            </a>
+            <a href=".././未来展望.html">
+                <li>未来展望</li>
+            </a>
+            <a href=".././更新日志.html">
+                <li>更新日志</li>
+            </a>
+            <a href=".././关于我们.html">
+                <li>关于我们</li>
+            </a>
+            <a href=".././产品演示.html">
+                <li>产品演示</li>
+            </a>
         </ul>
     </div>
-    
+
     <div class="header wrapper">
         <div class="logo">
             <h1><a href="../../index.html">产品演示</a></h1>
@@ -87,15 +115,17 @@
                 </li>
             </ul>
         </div>
-        <!-- gardio -->
+        <!-- gradio -->
         <div class="text">
-            <!-- 正文区域 -->
-            <!-- <iframe src="https://github.com/PineappleSnowy"></iframe> -->
-            <a class="github-button" href="https://github.com/PineappleSnowy/visionvoice" data-icon="star" data-show-count="false" data-size="large"  aria-label="Star user/repository on GitHub">Welcome to our repository!</a>
+
+            <!--github按钮和swanhub -->
+            <a class="github-button bbb" href="https://github.com/PineappleSnowy/visionvoice" data-icon="star" data-show-count="false" data-size="large"  aria-label="Star user/repository on GitHub">Welcome to our repository!</a>
             <script async defer src="https://buttons.github.io/buttons.js"></script>
 
-
+            <iframe src="https://swanhub.co/Dawn/visionvoice"></iframe>
+            
         </div>
     </div>
 </body>
+
 </html>

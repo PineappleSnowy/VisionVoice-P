@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,11 +10,10 @@
     <link rel="stylesheet" href="../../css.child/盲人故事.css">
     <link rel="stylesheet" href="../../iconfont/arrow.css">
     <style>
-        body::after
-        {
+        body::after {
             content: "";
             background-image: url(../../images/产品演示.webp);
-            background-repeat: no-repeat; 
+            background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
 
@@ -26,23 +26,37 @@
         }
     </style>
     <script>
-        function toggleDropdown(navtog) 
-        {navtog.classList.toggle('active');}
+        function toggleDropdown(navtog) { navtog.classList.toggle('active'); }
     </script>
 </head>
+
 <body>
 
     <div class="dropdown-wrapper">
         <div class="navtog" onclick="toggleDropdown(this)"></div>
         <ul class="dropdown">
             <li class="image"></li>
-            <a href="../../index.html"><li>首页</li></a>
-            <a href=".././盲人故事.html"><li>盲人故事</li></a>
-            <a href=".././盲人需求.html"><li>盲人需求</li></a>
-            <a href=".././未来展望.html"><li>未来展望</li></a>
-            <a href=".././更新日志.html"><li>更新日志</li></a>
-            <a href=".././关于我们.html"><li>关于我们</li></a>
-            <a href=".././产品演示.html"><li>产品演示</li></a>
+            <a href="../../index.html">
+                <li>首页</li>
+            </a>
+            <a href=".././盲人故事.html">
+                <li>盲人故事</li>
+            </a>
+            <a href=".././盲人需求.html">
+                <li>盲人需求</li>
+            </a>
+            <a href=".././未来展望.html">
+                <li>未来展望</li>
+            </a>
+            <a href=".././更新日志.html">
+                <li>更新日志</li>
+            </a>
+            <a href=".././关于我们.html">
+                <li>关于我们</li>
+            </a>
+            <a href=".././产品演示.html">
+                <li>产品演示</li>
+            </a>
         </ul>
     </div>
 
@@ -84,8 +98,10 @@
         <!-- 产品演示 -->
         <div class="text">
             <!-- 正文区域 -->
-            <iframe src="https://wangsi-place365classification-pytorch.demo.swanhub.co"></iframe>
+            <iframe src="https://swanhub.co/demo/WangSi/place365classification_pytorch" frameborder="0" width="850"
+                height="450"></iframe>
         </div>
     </div>
 </body>
+
 </html>
