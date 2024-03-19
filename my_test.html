@@ -1,12 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <title>GitHub Repo Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown Renderer</title>
+    <!-- 引入所需的库 -->
+    <script src="https://cdn.jsdelivr.net/npm/remark@latest/dist/remark.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/remark-html@latest/dist/remark-html.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/rehype@latest/dist/rehype.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/rehype-stringify@latest/dist/rehype-stringify.min.js"></script>
 </head>
 
 <body>
-    <!-- <iframe src="https://cors-anywhere.herokuapp.com/https://github.com/PineappleSnowy/visionvoice" width="500" height="800px"></iframe> -->
-    <div class="github-card" data-github="PineappleSnowy/visionvoice" data-width="400" data-height=""
-        data-theme="default"></div>
-    <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+    <div id="markdown-content"></div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // 创建一个Remark实例，并添加HTML插件  
+            const remark = remark().use(remarkHtml);
+
+            // 假设你有一个Markdown字符串  
+            const markdown = '# Hello, Markdown!\n\nThis is some **bold** text.';
+
+            // 使用Remark将Markdown转换为HTML  
+            const html = remark.process(markdown);
+
+            // 获取要插入HTML的DOM元素  
+            const markdownContent = document.getElementById('markdown-content');
+
+            // 将HTML插入到DOM中  
+            markdownContent.innerHTML = html;
+        }); 
+    </script>
 </body>
 
 </html>
