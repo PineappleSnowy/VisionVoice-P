@@ -28,8 +28,22 @@
         .text {
             display: flex;
             justify-content: center;
-            align-items: center;
+            position: relative;
+            background-color: white;
+            opacity: 1;
+            overflow: hidden;
         }
+
+        iframe {
+            position: absolute;
+            top: 29px;
+        }
+
+        .bbb {
+            position: absolute;
+            top: 45px;
+        }
+
     </style>
     <script>
         function toggleDropdown(navtog) { navtog.classList.toggle('active'); }
@@ -92,6 +106,10 @@
                     <span class="iconfont icon-arrow-right"></span>
                 </li>
                 <li>
+                    <a href="环境分析.html">环境分析</a>
+                    <span class="iconfont icon-arrow-right"></span>
+                </li>
+                <li>
                     <a href="安卓演示.html">安卓演示</a>
                     <span class="iconfont icon-arrow-right"></span>
                 </li>
@@ -101,13 +119,15 @@
                 </li>
             </ul>
         </div>
-        <!-- gardio -->
+        <!-- gradio -->
         <div class="text">
-            <!-- 正文区域 -->
-            <div class="github-card" data-github="PineappleSnowy/visionvoice" data-width="400" data-height=""
-                data-theme="default"></div>
-            <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
-            <iframe src="https://swanhub.co/Dawn/visionvoice" width="500" height="800px"></iframe>
+
+            <!--github按钮和swanhub -->
+            <a class="github-button bbb" href="https://github.com/PineappleSnowy/visionvoice" data-icon="star" data-show-count="false" data-size="large"  aria-label="Star user/repository on GitHub">Welcome to our repository!</a>
+            <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+            <iframe src="https://swanhub.co/Dawn/visionvoice"></iframe>
+            
         </div>
     </div>
 </body>
