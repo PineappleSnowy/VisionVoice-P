@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<a href="https://visionvoice.life/html.child/%E4%BA%A7%E5%93%81%E6%BC%94%E7%A4%BA.html">🔥视界之声 在线版</a> · <a href="https://visionvoice.life/html.child/user_manual.html">📃 用户文档</a> · <a href="https://github.com/PineappleSnowy/VisionVoice_new/issues">报告问题</a> · <a href="https://github.com/PineappleSnowy/VisionVoice_new/issues">建议反馈</a> · <a href="https://visionvoice.life/html.child/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97.html">更新日志</a> · <a href="https://visionvoice.life">🌐 官方网站</a>
+<a href="https://visionvoice.life/html.child/%E4%BA%A7%E5%93%81%E6%BC%94%E7%A4%BA.html">🔥视界之声 在线版</a> · <a href="https://visionvoice.life/html.child/user_manual.html">📃 用户文档</a> · <a href="https://github.com/PineappleSnowy/VisionVoice-P/issues">报告问题</a> · <a href="https://github.com/PineappleSnowy/VisionVoice-P/issues">建议反馈</a> · <a href="https://visionvoice.life/html.child/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97.html">更新日志</a> · <a href="https://visionvoice.life">🌐 官方网站</a>
 
 [![license][license-shield]][license-shield-link]
 [![last-commit][last-commit-shield]][last-commit-shield-link]
@@ -126,7 +126,7 @@
 
 ### 社区与支持
 
-- [GitHub Issues](https://github.com/PineappleSnowy/VisionVoice_new/issues)：使用 “视界之声” 时遇到的错误和问题
+- [GitHub Issues](https://github.com/PineappleSnowy/VisionVoice-P/issues)：使用 “视界之声” 时遇到的错误和问题
 - [电子邮件支持](hdgong2766@qq.com)：反馈关于使用 “视界之声” 的问题
 - <a href="https://geektechstudio.feishu.cn/wiki/">微信交流群</a>：交流使用 “视界之声” 的问题、分享最新的 无障碍与AI 技术
 
@@ -134,10 +134,10 @@
 
 如果你喜欢在工作中使用 “视界之声”，请将 视界之声 徽章添加到你的 README 中：
 
-[![VisionVoice](https://img.shields.io/badge/powered%20by-VisionVoice-438440)](https://github.com/PineappleSnowy/VisionVoice_new)
+[![VisionVoice](https://img.shields.io/badge/powered%20by-VisionVoice-438440)](https://github.com/PineappleSnowy/VisionVoice-P)
 
 ```
-[![VisionVoice](https://img.shields.io/badge/powered%20by-VisionVoice-438440)](https://github.com/PineappleSnowy/VisionVoice_new)
+[![VisionVoice](https://img.shields.io/badge/powered%20by-VisionVoice-438440)](https://github.com/PineappleSnowy/VisionVoice-P)
 ```
 
 ### 在论文中引用 “视界之声”
@@ -150,7 +150,7 @@
   doi = {},
   license = {},
   title = {{VisionVoice}},
-  url = {https://github.com/PineappleSnowy/VisionVoice_new},
+  url = {https://github.com/PineappleSnowy/VisionVoice-P},
   year = {2024}
 }
 ```
@@ -169,8 +169,8 @@
 
 **Contributors**
 
-<a href="https://github.com/PineappleSnowy/VisionVoice_new/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=PineappleSnowy/VisionVoice_new" />
+<a href="https://github.com/PineappleSnowy/VisionVoice-P/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=PineappleSnowy/VisionVoice-P" />
 </a>
 
 <br>
@@ -189,12 +189,12 @@
 
 <!-- link -->
 
-[license-shield]: https://img.shields.io/github/license/PineappleSnowy/VisionVoice_new?color=brightgreen
-[license-shield-link]: https://github.com/PineappleSnowy/VisionVoice_new/blob/master/LICENSE
-[last-commit-shield]: https://img.shields.io/github/last-commit/PineappleSnowy/VisionVoice_new
-[last-commit-shield-link]: https://github.com/PineappleSnowy/VisionVoice_new/commits/master
-[issues-shield]: https://img.shields.io/github/issues/PineappleSnowy/VisionVoice_new
-[issues-shield-link]: https://github.com/PineappleSnowy/VisionVoice_new/issues
+[license-shield]: https://img.shields.io/github/license/PineappleSnowy/VisionVoice-P?color=brightgreen
+[license-shield-link]: https://github.com/PineappleSnowy/VisionVoice-P/blob/master/LICENSE
+[last-commit-shield]: https://img.shields.io/github/last-commit/PineappleSnowy/VisionVoice-P
+[last-commit-shield-link]: https://github.com/PineappleSnowy/VisionVoice-P/commits/master
+[issues-shield]: https://img.shields.io/github/issues/PineappleSnowy/VisionVoice-P
+[issues-shield-link]: https://github.com/PineappleSnowy/VisionVoice-P/issues
 [VisionVoice-cloud-shield]: https://img.shields.io/badge/Product-VisionVoice云端版-636a3f
 [VisionVoice-cloud-shield-link]: https://visionvoice.life/html.child/%E4%BA%A7%E5%93%81%E6%BC%94%E7%A4%BA.html
 [wechat-shield]: https://img.shields.io/badge/WeChat-微信-4cb55e
