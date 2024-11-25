@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<a href="https://visionvoice.life/html.child/%E4%BA%A7%E5%93%81%E6%BC%94%E7%A4%BA.html">🔥Vision Voice Cloud</a> · <a href="https://visionvoice.life/html.child/user_manual.html">📃 User Document</a> · <a href="https://github.com/PineappleSnowy/VisionVoice_new/issues">Report Issure</a> · <a href="https://github.com/PineappleSnowy/VisionVoice_new/issues">Feedback</a> · <a href="https://visionvoice.life/html.child/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97.html">Change Log</a> · <a href="https://visionvoice.life">🌐 Official Website</a>
+<a href="https://visionvoice.life/html.child/%E4%BA%A7%E5%93%81%E6%BC%94%E7%A4%BA.html">🔥Vision Voice Cloud</a> · <a href="https://visionvoice.life/html.child/user_manual.html">📃 User Document</a> · <a href="https://github.com/PineappleSnowy/VisionVoice-P/issues">Report Issure</a> · <a href="https://github.com/PineappleSnowy/VisionVoice-P/issues">Feedback</a> · <a href="https://visionvoice.life/html.child/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97.html">Change Log</a> · <a href="https://visionvoice.life">🌐 Official Website</a>
 
 [![license][license-shield]][license-shield-link]
 [![last-commit][last-commit-shield]][last-commit-shield-link]
@@ -127,7 +127,7 @@ Here you can view our development history of VisionVoice.  [Update Log](https://
 
 ### Community and support
 
-- [GitHub Issues](https://github.com/PineappleSnowy/VisionVoice_new/issues):Errors and issues encountered when using VisionVoice
+- [GitHub Issues](https://github.com/PineappleSnowy/VisionVoice-P/issues):Errors and issues encountered when using VisionVoice
 - [Email support](hdgong2766@qq.com):Feedback on issues with using VisionVoice
 - <a href="https://geektechstudio.feishu.cn/wiki/">WeChat</a>:Discuss issues using VisionVoice, share the latest barrier-free and AI technology.
 
@@ -135,10 +135,10 @@ Here you can view our development history of VisionVoice.  [Update Log](https://
 
 If you like to use VisionVoice in your work, please add the VisionVoice badge to your README:
 
-[![VisionVoice](https://img.shields.io/badge/powered%20by-VisionVoice-438440)](https://github.com/PineappleSnowy/VisionVoice_new/tree/VisionVoice)
+[![VisionVoice](https://img.shields.io/badge/powered%20by-VisionVoice-438440)](https://github.com/PineappleSnowy/VisionVoice-P/tree/VisionVoice)
 
 ```
-[![VisionVoice](https://img.shields.io/badge/powered%20by-VisionVoice-438440)](https://github.com/PineappleSnowy/VisionVoice_new/tree/VisionVoice)
+[![VisionVoice](https://img.shields.io/badge/powered%20by-VisionVoice-438440)](https://github.com/PineappleSnowy/VisionVoice-P/tree/VisionVoice)
 ```
 
 ### Citing VisionVoice in the paper
@@ -151,7 +151,7 @@ If you find VisionVoice helpful for your research journey, please consider citin
   doi = {},
   license = {},
   title = {{VisionVoice}},
-  url = {https://github.com/PineappleSnowy/VisionVoice_new},
+  url = {https://github.com/PineappleSnowy/VisionVoice-P},
   year = {2024}
 }
 ```
@@ -170,8 +170,8 @@ At the same time, we warmly welcome support for VisionVoice through social media
 
 **Contributors**
 
-<a href="https://github.com/PineappleSnowy/VisionVoice_new/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=PineappleSnowy/VisionVoice_new" />
+<a href="https://github.com/PineappleSnowy/VisionVoice-P/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=PineappleSnowy/VisionVoice-P" />
 </a>
 
 <br>
@@ -190,12 +190,12 @@ This repository follows the [open source license](Fill in the link here) open so
 
 <!-- link -->
 
-[license-shield]: https://img.shields.io/github/license/PineappleSnowy/VisionVoice_new?color=brightgreen
-[license-shield-link]: https://github.com/PineappleSnowy/VisionVoice_new/blob/master/LICENSE
-[last-commit-shield]: https://img.shields.io/github/last-commit/PineappleSnowy/VisionVoice_new
-[last-commit-shield-link]: https://github.com/PineappleSnowy/VisionVoice_new/commits/VisionVoice
-[issues-shield]: https://img.shields.io/github/issues/PineappleSnowy/VisionVoice_new
-[issues-shield-link]: https://github.com/PineappleSnowy/VisionVoice_new/issues
+[license-shield]: https://img.shields.io/github/license/PineappleSnowy/VisionVoice-P?color=brightgreen
+[license-shield-link]: https://github.com/PineappleSnowy/VisionVoice-P/blob/master/LICENSE
+[last-commit-shield]: https://img.shields.io/github/last-commit/PineappleSnowy/VisionVoice-P
+[last-commit-shield-link]: https://github.com/PineappleSnowy/VisionVoice-P/commits/VisionVoice
+[issues-shield]: https://img.shields.io/github/issues/PineappleSnowy/VisionVoice-P
+[issues-shield-link]: https://github.com/PineappleSnowy/VisionVoice-P/issues
 [VisionVoice-cloud-shield]: https://img.shields.io/badge/Product-VisionVoice云端版-636a3f
 [VisionVoice-cloud-shield-link]: https://visionvoice.life/html.child/%E4%BA%A7%E5%93%81%E6%BC%94%E7%A4%BA.html
 [wechat-shield]: https://img.shields.io/badge/WeChat-微信-4cb55e
